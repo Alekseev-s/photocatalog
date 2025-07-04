@@ -21,4 +21,9 @@ public class InMemoryPhotoService implements PhotoService {
     public Photo photoByDescription(String description) {
         return null;
     }
+
+    @Override
+    public Photo byId(String id) {
+        return null;
+    }
 }
